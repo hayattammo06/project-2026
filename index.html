@@ -1,53 +1,81 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="ar">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>بروتفوليو الشخصي</title>
+    <title>Luxury Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <nav class="navbar">
-        <div class="logo">موقعي</div>
-        <ul class="nav-links">
-            <li><a href="#home">الرئيسية</a></li>
-            <li><a href="#edu">education</a></li>
-            <li><a href="#contact">تواصل معي</a></li>
-        </ul>
-    </nav>
+<nav class="navbar">
+    <h1>HK</h1>
+    <ul>
+        <li><a href="#hero">الرئيسية</a></li>
+        <li><a href="#about">عني</a></li>
+        <li><a href="#services">خدماتي</a></li>
+        <li><a href="#projects">الأعمال</a></li>
+        <li><a href="#call me">تواصل</a></li>
+            
+    </ul>
+</nav>
 
-    <section id="home" class="hero">
-        <div class="hero-content">
-           
-<h1>اهلا بك انا اية</h1>            <p>مطور ويب وشغوف ببناء تجارب رقمية مميزة.</p>
-            <img src="images/لقطة شاشة 2025-12-29 115748.png" >
-        </div>
-    </section>
+<!-- Hero -->
+<section id="hero" class="hero">
+    <div class="hero-text">
+        <h2>HI </h2>
+        <h1>Frontend Developer</h1>
+        <p>أصمم واجهات أنيقة وعصرية</p>
+        <a href="#call me" class="btn">تواصل معي</a>
+    </div>
+    <div class="hero-img">
+        <img src="img/Annotation 2025-11-11 001440.png" alt="Profile">
+    </div>
+</section>
 
-    <section id="about" class="about">
-        <h2>education</h2>
-      <p>مطورة مواقع</p>
-       <p>ui ux </p>
-        <p>php</p>
-      <br>
- <br>
-    <section id="contact" class="contact">
-        <h2>تواصل معي</h2>
-        <div class="form-container">
-            <form>
-                <input type="text" placeholder="الاسم الكامل" required>
-                <input type="email" placeholder="البريد الإلكتروني" required>
-                <textarea placeholder="رسالتك هنا..." rows="5" required></textarea>
-                <button type="submit">إرسال</button>
-            </form>
-        </div>
-    </section>
+<!-- About -->
+<section id="about" class="glass">
+    <h2>من أنا</h2>
+    <p>
+        مطور واجهات أمامية، شغوف بالتصميم العصري وتجربة المستخدم،
+        أعمل على بناء مواقع فخمة وسريعة.
+    </p>
+</section>
 
-    <footer>
-        <p>جميع الحقوق محفوظة © 2025</p>
-    </footer>
+<!-- Services -->
+<section id="services">
+    <h2>خدماتي</h2>
+    <div class="cards">
+        <div class="card">تصميم واجهات</div>
+        <div class="card">تطوير مواقع</div>
+        <div class="card">تحسين UX/UI</div>
+    </div>
+</section>
+
+<!-- Projects -->
+<section id="projects" class="glass">
+    <h2>أعمالي</h2>
+    <div class="cards">
+        <div class="card">Portfolio</div>
+        <div class="card">Dashboard</div>
+        <div class="card">Landing Page</div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="call me">
+    <h2>تواصل معي</h2>
+    <form class="contact-form">
+        <input type="text" placeholder="اسمك">
+        <input type="email" placeholder="بريدك الإلكتروني">
+        <textarea placeholder="رسالتك"></textarea>
+        <button>إرسال</button>
+    </form>
+</section>
+
+
+<footer>
+    <p>© 2026</p>
+</footer>
 
 </body>
 </html>
